@@ -14,17 +14,17 @@ export default function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <Link href={"/"}>
           <MenuItem setActive={setActive} active={active} item="Home">
-            Home
+           
           </MenuItem>
         </Link>
         <HoveredLink href={"/about"}>
           <MenuItem setActive={setActive} active={active} item="About">
-            About
+            
           </MenuItem>
         </HoveredLink>
         <HoveredLink href={"/ourCourses"}>
           <MenuItem setActive={setActive} active={active} item="All Courses" >
-            Our Courses
+           
           </MenuItem>
 
         </HoveredLink>

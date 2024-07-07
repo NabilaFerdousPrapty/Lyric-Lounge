@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      
       <div className="flex justify-center items-center h-screen ">
         <h1 className="text-6xl">Welcome to Lyric Lounge</h1>
 
